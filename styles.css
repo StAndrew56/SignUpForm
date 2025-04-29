@@ -1,0 +1,161 @@
+
+@font-face {
+    font-family: "NorseBold";
+    src: url("Norse-Bold.otf") format("opentype");
+  }
+
+body{
+    font-family:'Times New Roman', Times, serif;
+}
+
+.margin0{
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+#container{
+    display: flex;
+    height: 100vh;
+    background-color: rgba(163, 174, 186, 0.13);
+}
+
+
+.plant {
+    height: 100vh;
+    width: auto;
+    display: block;
+  }
+  
+  .scenery {
+    position: relative;
+    width: auto;
+  }
+  
+  .overlay-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); 
+  }
+
+  .odin-text {
+    margin-top: 50px;
+    font-size: 100px;
+    color: white; 
+    font-family: "NorseBold", sans-serif;
+}
+
+  .logo{
+    height: 175px;
+    width: auto;
+  }
+  
+
+.signup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 100%;
+}
+
+.header{
+    display: flex;
+    align-self: start;
+    margin-bottom: 50px;
+    font-size: large;
+}
+
+
+#formfield{
+    display: flex;
+    border: 2px solid white;
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    align-items: center;
+    align-self: start;
+    border-left-width: 0;
+    border-right-width: 0;
+    flex-direction: column;
+    box-shadow: 1px 0px 10px rgb(46, 44, 44);
+}
+
+h2{
+    margin-left: 100px;
+}
+
+.column1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+
+}
+
+.column2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+
+}
+
+input{
+    border: 2px solid #E5E7EB;
+    color: black;
+    width: 250px;
+    height: 25px;
+    font-size: large;
+    margin-bottom: 20px;
+}
+
+
+label{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-weight: 500;}
+
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-self: start;
+    margin-left: 100px;
+    margin-top: 50px;
+
+}
+
+button{
+    background-color: #596D48;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    width: 300px;
+    font-size: large;
+    cursor: pointer;
+}
+
+
+h3{
+    font-size: x-large;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: start;
+    border-left-width: 0;
+    border-right-width: 0;
+}
